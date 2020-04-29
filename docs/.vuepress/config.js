@@ -56,6 +56,15 @@ module.exports = {
                 children: utils.generateSideBar(rootpath, './javascript')
             },
             {
+                title: '发布',
+                collapsable: false,
+                sidebarDepth: 1,
+                sidebarDepth: 1,
+                children: [
+                    '/deploy/checklist',
+                ]
+            },
+            {
                 title: '其它文档',
                 collapsable: false,
                 sidebarDepth: 1,
