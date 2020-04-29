@@ -1,9 +1,10 @@
 ---
 title: StReport埋点上报
 ---
+# StReport埋点上报
 
 # 使用场景
-有统计需求的所有项目
+有数据上报需求的所有项目
 
 ## 依赖
 ```javascript
