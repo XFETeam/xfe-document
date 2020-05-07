@@ -42,7 +42,8 @@ module.exports = {
                     '/page-standard/h5-video-audio',
                     '/page-standard/mobile-font',
                     '/page-standard/st-report',
-                    '/page-standard/daily-auth'
+                    '/page-standard/daily-auth',
+                    '/page-standard/loading'
                 ]
             },
             {

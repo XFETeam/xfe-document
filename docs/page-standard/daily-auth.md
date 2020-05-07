@@ -43,4 +43,9 @@ console.log(window.THIRD_PARTY_AUTH);
 }
 ```
 
+## 版本
+
+* 0.0.1
+
+  add: init
 

@@ -1,0 +1,33 @@
+---
+title: 页面 Loading
+
+---
+
+# 页面 Loading
+
+页面 loading 目前有三种，请根据具体项目和需求方要求使用相应loading，默认使用小黄鸡loading
+
+## 使用
+
+在 `mobile-react-v4.1` 的 `src/components/route/route-loading/index.js` 文件中通过修改 `loadingImageType` 改变 loading 类型
+
+![code](/images/loading-code-1.png)
+
+## 示例
+
+* jx3 loading
+
+![jx3 loading](/images/loading-jx3.png)
+
+* seasun loading
+
+![jx3 loading](/images/loading-seasun.png)
+
+* 小黄鸡 loading
+
+  :::warning
+     用于剑网3专题
+  :::
+
+![jx3 loading](/images/loading-xhj.png)
+
