@@ -40,7 +40,9 @@ module.exports = {
                     '/page-standard/pc-compatible',
                     '/page-standard/mobile-compatible',
                     '/page-standard/h5-video-audio',
-                    '/page-standard/mobile-font'
+                    '/page-standard/mobile-font',
+                    '/page-standard/st-report',
+                    '/page-standard/daily-auth'
                 ]
             },
             {
