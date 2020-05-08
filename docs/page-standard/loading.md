@@ -17,9 +17,13 @@ title: 页面 Loading
 
 * jx3 loading
 
+cdn地址： `//zhcdn01.xoyo.com/xassets/lib/zt/m/loading-img/jx3-loading.gif`
+
 ![jx3 loading](/xfe-document/images/loading-jx3.png)
 
 * seasun loading
+
+cdn地址： `//zhcdn01.xoyo.com/xassets/lib/zt/m/loading-img/seasun-loading.gif`
 
 ![jx3 loading](/xfe-document/images/loading-seasun.png)
 

@@ -9,7 +9,7 @@ title: 剑网3推栏授权
 ## 使用方法
 在头部head标签内按顺序先引入 daily-app-auth脚本，然后引入get-daily-account-info.js脚本
 
-请将{VERSION}更换为具体的版本
+请将{VERSION}更换为[具体的版本](/page-standard/daily-auth.html#%E7%89%88%E6%9C%AC)
 ```html
 <head>
  ...
@@ -18,8 +18,7 @@ title: 剑网3推栏授权
  ...
 </head>
 ```
-
-// 执行脚本后可以在window.THIRD_PARTY_AUTH获取相关授权信息
+执行脚本后可以在window.THIRD_PARTY_AUTH获取相关授权信息
 ```javascript
 console.log(window.THIRD_PARTY_AUTH);
 //成功返回
