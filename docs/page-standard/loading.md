@@ -11,17 +11,17 @@ title: 页面 Loading
 
 在 `mobile-react-v4.1` 的 `src/components/route/route-loading/index.js` 文件中通过修改 `loadingImageType` 改变 loading 类型
 
-![code](/images/loading-code-1.png)
+![code](/xfe-document/images/loading-code-1.png)
 
 ## 示例
 
 * jx3 loading
 
-![jx3 loading](/images/loading-jx3.png)
+![jx3 loading](/xfe-document/images/loading-jx3.png)
 
 * seasun loading
 
-![jx3 loading](/images/loading-seasun.png)
+![jx3 loading](/xfe-document/images/loading-seasun.png)
 
 * 小黄鸡 loading
 
@@ -29,5 +29,5 @@ title: 页面 Loading
      用于剑网3专题
   :::
 
-![jx3 loading](/images/loading-xhj.png)
+![jx3 loading](/xfe-document/images/loading-xhj.png)
 
