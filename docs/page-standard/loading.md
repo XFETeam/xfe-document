@@ -32,6 +32,8 @@ cdn地址： `//zhcdn01.xoyo.com/xassets/lib/zt/m/loading-img/seasun-loading.gif
   :::warning
      用于剑网3专题
   :::
+  
+  cdn地址： `//zhcdn01.xoyo.com/xassets/lib/zt/m/loading-img/chicken-loading.gif`
 
 ![jx3 loading](/xfe-document/images/loading-xhj.png)
 
