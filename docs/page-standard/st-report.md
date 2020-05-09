@@ -8,17 +8,17 @@ title: StReport埋点上报
 
 ## 依赖
 ```javascript
-    <script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/x.x.x/st-report-sdk.js"></script>
+<script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/x.x.x/st-report-sdk.js"></script>
 ```
 其中x.x.x是版本号，请询问官网负责对接的同学当前应使用什么版本。
 
 ## 使用方法
 一般情况下，让西山居运营平台官网组的同学提供一个写有各种埋点实现方法的js文件，直接在引用st-report-sdk.js之后，引入这个统计js文件即可；
 ```javascript
-    <head>
-        <script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/0.2.4/st-report-sdk.min.js"></script>
-        <script src="./tracker.js" type="text/javascript"></script>
-    </head>
+<head>
+    <script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/0.2.4/st-report-sdk.min.js"></script>
+    <script src="./tracker.js" type="text/javascript"></script>
+</head>
 ```
 
 以下是生成的tracker.js文件的样例，可能会因为版本不同而不同。
@@ -81,22 +81,22 @@ function createTracker(stReortSdk) {
   }
 
   //检测参数类型，参数类型若不符合，则上报失败
-  function checkTypeHOF(type) {
-        switch (type) {
-            case 'int':
-            return Number.isInteger;
-            case 'float':
-            return value => typeof value === 'number' && !Number.isInteger(value);
-            case 'boolean':
-            return value => typeof value === 'boolean';
-            case 'string':
-            return value => typeof value === 'string';
-            default:
-            setTimeout(() => {
-                throw new Error('st-report: invalid value type = ' + type);
-            }, 0);
-            return null;
-        }
+function checkTypeHOF(type) {
+    switch (type) {
+        case 'int':
+        return Number.isInteger;
+        case 'float':
+        return value => typeof value === 'number' && !Number.isInteger(value);
+        case 'boolean':
+        return value => typeof value === 'boolean';
+        case 'string':
+        return value => typeof value === 'string';
+        default:
+        setTimeout(() => {
+            throw new Error('st-report: invalid value type = ' + type);
+        }, 0);
+        return null;
+    }
   }
 }
 ```

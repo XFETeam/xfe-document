@@ -22,7 +22,17 @@ module.exports = {
                 title: '快速上手掌握',
                 collapsable: false,
                 sidebarDepth: 1,
-                children: ['/start-quickly/pc-project', '/start-quickly/mobile-project', '/start-quickly/univers']
+                children: ['/start-quickly/pc-project', '/start-quickly/mobile-project']
+            },
+            {
+                title: '通用',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    '/page-standard/st-report',
+                    '/page-standard/common-award-form',
+                    
+                ]
             },
             {
                 title: '页面规范',
@@ -41,7 +51,6 @@ module.exports = {
                     '/page-standard/mobile-compatible',
                     '/page-standard/h5-video-audio',
                     '/page-standard/mobile-font',
-                    '/page-standard/st-report',
                     '/page-standard/daily-auth'
                 ]
             },
