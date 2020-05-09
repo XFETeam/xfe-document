@@ -51,7 +51,13 @@ module.exports = {
                     '/page-standard/mobile-compatible',
                     '/page-standard/h5-video-audio',
                     '/page-standard/mobile-font',
+<<<<<<< HEAD
                     '/page-standard/daily-auth'
+=======
+                    '/page-standard/st-report',
+                    '/page-standard/daily-auth',
+                    '/page-standard/loading'
+>>>>>>> 505086291f25c694b15c561dbfcf641b19fb5d32
                 ]
             },
             {
