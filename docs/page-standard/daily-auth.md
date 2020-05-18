@@ -60,7 +60,7 @@ console.log(window.THIRD_PARTY_AUTH);
 ```
 如果设置为window.LIMIT_ONLY_HAS_JX3_ROLE_ACCESS_IN_DAILY为true会多返回红框内数据
 
-![jx3 loading](/xfe-document/images/auth-success-return.png)
+![daily auth return](/xfe-document/images/auth-success-return.png)
 
 ## ChangeLog
 ### 0.0.2
