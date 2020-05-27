@@ -24,6 +24,14 @@
 
 目前 CI 持续集成对 `commit message` 存在监测, 当 `commit message` 以 `release:` 开头的将被同步到 gh-pages, 并最终同步到生产环境线上。
 
+推荐命令:
+
+    1. git Status
+    2. git add .
+    3. git commit -am "release: 提交变更信息"
+    4. git pull (可选)
+    5. git push
+
 ## LICENSE
 
 MIT
