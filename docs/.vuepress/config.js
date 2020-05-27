@@ -32,6 +32,7 @@ module.exports = {
                     '/page-standard/st-report',
                     '/page-standard/common-award-form',
                     '/page-standard/daily-auth',
+                    '/page-standard/xpass',
                 ]
             },
             {
