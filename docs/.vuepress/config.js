@@ -33,6 +33,7 @@ module.exports = {
                     '/page-standard/common-award-form',
                     '/page-standard/daily-auth',
                     '/page-standard/xpass',
+                    '/page-standard/js-reg-login',
                 ]
             },
             {
