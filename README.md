@@ -18,7 +18,7 @@
 - 创建新的分支: `git checkout -b my-new-feature`
 - 提交你的变更: `git commit -am 'Add some feature'`
 - 推送分支: `git push origin my-new-feature`
-- 提交一个 PR (pull request)
+- 提交一个 PR (pull request) 
 
 ## 部署
 

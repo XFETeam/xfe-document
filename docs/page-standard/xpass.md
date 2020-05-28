@@ -29,7 +29,7 @@ title: xpass弹出窗登录
 ## API
     - XPASS.signup
         如果传入 callback 参数 注册成功后将执行 callback 方法 否则 reload 当前页面
-    ```
+    ```javascript
     // 无回调
     XPASS.signup();
 
