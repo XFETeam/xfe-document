@@ -108,9 +108,7 @@ $('.xsj_register_dom_five').registerPublic({
 
 
 ## API
-1. window.LIMIT_ONLY_HAS_JX3_ROLE_ACCESS_IN_DAILY
- 
- 在接入脚本前设置该值，是否限制仅拥有剑三角色账户才可进入，否则跳转无激活角色错误提示页面，默认关闭，开启会影响性能，请经确认需要开启后开启
+
 ```html
  ...
     domName: ''      //必填/按钮dom,可以class,也可以ID
@@ -138,9 +136,7 @@ $('.xsj_register_dom_five').registerPublic({
     regText: '请保管好您的账户名和密码，西山居不会以任何的形式向您索要账户名和密码。',
  ...
 ```
-如果设置为window.LIMIT_ONLY_HAS_JX3_ROLE_ACCESS_IN_DAILY为true会多返回红框内数据
 
-![daily auth return](/xfe-document/images/auth-success-return.png)
 
 
 
