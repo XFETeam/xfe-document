@@ -134,7 +134,7 @@ QQ成功
 
 如果设置 `window.LIMIT_ONLY_HAS_JX3_ROLE_ACCESS_IN_DAILY` 为 `true` 会多返回区服角色信息(红框内数据)
 
-![返回数据](./docs/images/daily-auth-success-return.png)
+![daily auth return](/xfe-document/images/auth-success-return.png)
 
 ## ChangeLog
 
