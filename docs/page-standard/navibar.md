@@ -16,7 +16,7 @@ title: 通用头部
     // 剑网三头部导航栏
     <script src="//zhcdn01.xoyo.com/xassets/com/jx3/navibar/v2/navibar.js"></script>
     
-    // 剑网三怀旧版通用导航栏(剑网3缘起)
+    // 剑网三经典版头部导航栏(剑网3缘起、剑网3怀旧版)
     <script src="//zhcdn01.xoyo.com/xassets/com/jx3/navibar/v2/navibar.js"></script>
     <script>
       window.jx3Navibar({type: 'jx3yq'});
