@@ -11,7 +11,7 @@ title: 通用头部
 `通用头预览效果`对应以下3个 `<script>` 脚本
 
 ```javascript
-*注意：依赖jQuery
+注意：依赖jQuery
     
 // 剑网三头部导航栏
 <script src="//zhcdn01.xoyo.com/xassets/com/jx3/navibar/v2/navibar.js"></script>
