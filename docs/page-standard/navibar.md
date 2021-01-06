@@ -8,7 +8,7 @@ title: 通用头部
 
 ## 组件CDN
 
-通用头预览效果对应以下3个 `script` 脚本
+`通用头预览效果`对应以下3个 `<script>` 脚本
 
 ```javascript
 *注意：依赖jQuery
@@ -24,7 +24,6 @@ title: 通用头部
     
 // 其他游戏通用栏（经典剑侠、春秋Q传、剑世2手游等）
 <script src="//zhcdn01.xoyo.com/xassets/com/pf/xoyotop/v1/navibar.js"></script>
-      
 ```
 
 ## 通用头预览效果
