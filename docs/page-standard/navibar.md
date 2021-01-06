@@ -23,8 +23,13 @@ title: 通用头部
     </script>
     
     // 其他游戏通用栏（经典剑侠、春秋Q传、剑世2手游等）
-    <script src="zhcdn01.xoyo.com/xassets/com/pf/xoyotop/v1/navibar.js"></script>
+    <script src="//zhcdn01.xoyo.com/xassets/com/pf/xoyotop/v1/navibar.js"></script>
     
     
 ```
+
+## 通用头预览效果
+
+![top](http://xfe.seasungame.com/assets/2021/01/06/xfe/top.png)
+
 ## 其它业务头部
