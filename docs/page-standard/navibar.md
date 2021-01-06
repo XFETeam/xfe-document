@@ -24,5 +24,7 @@ title: 通用头部
     
     // 其他游戏通用栏（经典剑侠、春秋Q传、剑世2手游等）
     <script src="zhcdn01.xoyo.com/xassets/com/pf/xoyotop/v1/navibar.js"></script>
+    
+    
 ```
 ## 其它业务头部
