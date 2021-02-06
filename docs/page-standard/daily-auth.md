@@ -63,7 +63,7 @@ console.log(window.THIRD_PARTY_AUTH);
 ![daily auth return](/xfe-document/images/auth-success-return.png)
 
 ## 联系
-如有相关问题请联系微信 (ailun_she), 加好友前请备注来自 gitlab, 备注加好友原因.
+如有相关问题请联系微信 `ailun_she`, 加好友前请备注来自 github, 备注加好友原因.
 
 ## ChangeLog
 ### 0.0.2
