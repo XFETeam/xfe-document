@@ -36,7 +36,7 @@ var config = {
 };
 
 //引入stReport
-var stReortSdk = new StReportSdk024.getInstance(config);
+var stReortSdk = new StReportSdk.getInstance(config);
 
 //创建统计实现对象tracker
 var tracker = createTracker(stReortSdk)
