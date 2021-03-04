@@ -3,6 +3,16 @@ title: PC端专题
 ---
 
 # PC端专题
+
+## 获取模板
+
+目前为了持续维护, 我们在当前仓库建设了 template-pc 的分支用于管理 PC 专题模板, 请使用下面命令进行项目起始开发:
+
+```bash
+# git 克隆一个分支名为 template-pc 的项目, 仅拉取最后一次 commit
+git clone -b template-pc https://github.com/XFETeam/xfe-document.git --depth=1 .
+```
+
 ## 专题创建
 * [专题命名](../page-standard/file-directory.md#%E4%B8%93%E9%A2%98%E7%9B%AE%E5%BD%95%E5%91%BD%E5%90%8D)
 
