@@ -9,7 +9,7 @@ title: PC端专题
 目前为了持续维护, 我们在当前仓库建设了 template-pc 的分支用于管理 PC 专题模板, 请使用下面命令进行项目起始开发:
 
 ```bash
-# git 克隆一个分支名为 template-pc 的项目, 仅拉取最后一次 commit
+# git 克隆一个分支名为 template-pc 的项目, 仅拉取最后一次 commit, "." 表示在当前文件夹中进行克隆
 git clone -b template-pc https://github.com/XFETeam/xfe-document.git --depth=1 .
 ```
 
