@@ -4,7 +4,14 @@ title: StReport埋点上报
 # StReport埋点上报
 
 # 使用场景
-有数据上报需求的所有项目
+有数据上报需求的所有项目, 针对没有特殊需求的项目请在 `<head>` 标签中加入以下代码用于类似百度的自动埋点上报:
+
+```html
+<script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/0.2.x/st-report-sdk.min.js"></script>
+<script>
+    window.StReportSdk.autoTrack();
+</script>
+```
 
 ## 依赖
 ```javascript
