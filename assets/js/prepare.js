@@ -51,7 +51,7 @@
       .replace(/[./-]/g, '_');
   }
 
-  var stReportSdk = new StReportSdk.getInstance(config);
+  var stReportSdk = StReportSdk.getInstance(config);
 
   function createTracker(stReportSdk) {
     var trakcer = {
