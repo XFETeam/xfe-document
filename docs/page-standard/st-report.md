@@ -9,7 +9,12 @@ title: StReport埋点上报
 ```html
 <script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/0.2.x/st-report-sdk.min.js"></script>
 <script>
-    window.StReportSdk.autoTrack();
+    var config = {
+      projectIdentifier: 'jx3',
+      eventGroup: 'jx3_jiayuan_yuyue_pc_20200417',
+      eventTags: ['pc','jiayuan']
+    };
+    window.StReportSdk.autoTrack(config);
 </script>
 ```
 
