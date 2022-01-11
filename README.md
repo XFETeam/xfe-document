@@ -33,9 +33,10 @@
     5. git push
 
 线上操作时，只有在changes标题设置为：release: xxxx 才会触发CI脚本对页面进行发布
+
 ![CI](http://xfe.seasungame.com/assets/2021/01/06/xfe/ci.png)
 
-travis ci 地址：https://travis-ci.com/github/XFETeam/xfe-document
+发布情况请查看 [github actions](https://github.com/XFETeam/xfe-document/actions)
 
 ## LICENSE
 
