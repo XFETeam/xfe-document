@@ -22,7 +22,7 @@ jobs:
     needs: check
     steps:
       - name: checkResult
-        run: echo ${ needs.check.outputs.status }
+        run: echo {environment variable}
           
   build:
     runs-on: ubuntu-latest
