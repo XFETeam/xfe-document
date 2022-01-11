@@ -1,0 +1,25 @@
+name: Xfe Document CI
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+      - uses: actions/checkout@v2
+
+      - name: Install and Build
+        run: yarn install && yarn docs:build
+
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v2
+        with: 
+          build_dir: docs/.vuepress/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
