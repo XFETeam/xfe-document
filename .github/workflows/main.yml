@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check
+        if: startsWith(github.event.head_commit.message, 'release:') != true
+        run: |
+          echo "commit message 中没有使用 ‘release:’ 开头故终止当前 CI."
+          # exit_with_success
+        
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -19,7 +25,6 @@ jobs:
 
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v2
-        if: startsWith(github.event.head_commit.message, 'release:')
         with: 
           build_dir: docs/.vuepress/dist
           keep_history: true
