@@ -15,7 +15,7 @@ jobs:
         if: startsWith(github.event.head_commit.message, 'release:') != true
         run: |
           echo "commit message 中没有使用 ‘release:’ 开头故终止当前 CI."
-          # exit_with_success
+          exit_with_success
         
       - name: Checkout
         uses: actions/checkout@v2
