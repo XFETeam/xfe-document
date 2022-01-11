@@ -15,7 +15,6 @@ jobs:
         if: startsWith(github.event.head_commit.message, 'release:') != true
         run: |
           echo "commit message 中没有使用 ‘release:’ 开头故终止当前 CI."
-          exit 0
           
   test:
     runs-on: ubuntu-latest
