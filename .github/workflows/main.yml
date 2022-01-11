@@ -9,13 +9,20 @@ jobs:
   check:
     runs-on: ubuntu-latest
     outputs:
-      status: ${{ steps.checkCommitMessage.conclusion }}
+      status: ${{ steps.CheckCommitMessage.conclusion }}
     steps: 
-      - name: checkCommitMessage
+      - name: CheckCommitMessage
         if: startsWith(github.event.head_commit.message, 'release:') != true
         run: |
           echo "commit message 中没有使用 ‘release:’ 开头故终止当前 CI."
-          exit
+          exit 1
+          
+  test:
+    runs-on: ubuntu-latest
+    needs: check
+    steps:
+      - name: checkResult
+        run: echo ${{ needs.check.outputs.status }}
           
   build:
     runs-on: ubuntu-latest
