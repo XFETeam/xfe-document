@@ -9,7 +9,7 @@ title: StReport埋点上报
 ```html
 <script src="//zhcdn01.xoyo.com/xassets/lib/st-report-sdk/0.2.x/st-report-sdk.min.js"></script>
 <script>
-    // 如果 config 不进行设置或者为 undefined, 则当前网页将自动根据内置列表分类进行上报, 可直接使用 window.StReportSdk.autoTrack(); 即可
+    // 如果 config 不进行设置或者为 undefined, 则当前网页将自动根据内置列表分类进行上报, 可直接使用 window.StReportSdk.autoTrack(); 即可.
     var config = {
       projectIdentifier: 'jx3',
       eventGroup: 'jx3_jiayuan_yuyue_pc_20200417',
