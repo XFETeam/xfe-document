@@ -52,49 +52,18 @@ var config = {
 var stReportSdk = new StReportSdk.getInstance(config);
 
 //创建统计实现对象tracker
-var tracker = createTracker(stReortSdk) 
+var tracker = createTracker(stReportSdk) 
 
 function createTracker(stReportSdk) {
-  var trakcer = {
-    loadPage: function() {
-      stReortSdk.report({
-        eventName: 'load_page',
-        eventDescription: '页面加载(默认上报，页面全部加载完才上报)',
-        eventDataValue: {
-          td_pl: StReportSdk.getDiffRouteTime()
-        },
-        types: {
-          td_pl: checkTypeHOF('int')
-        }
-      });
-    },
-    pageLeave: function() {
-      stReortSdk.report({
-        eventName: 'page_leave',
-        eventDescription: '离开页面(默认上报)',
-        eventDataValue: {
-          td_pl: StReportSdk.getDiffRouteTime()
-        },
-        types: {
-          td_pl: checkTypeHOF('int')
-        }
-      });
-    },
-    loadPageStart: function() {
-      stReortSdk.report({
-        eventName: 'load_page_start',
-        eventDescription: '页面加载(默认上报，进入页面就上报)'
-      });
-    }
-   Number.isInteger =
+
+  Number.isInteger =
     Number.isInteger ||
     function(value) {
-        return typeof value === 'number' && isFinite(value) && Math.floor(value) === value;
+      return typeof value === 'number' && isFinite(value) && Math.floor(value) === value;
     };
-  }
 
   //检测参数类型，参数类型若不符合，则上报失败
-function checkTypeHOF(type) {
+   function checkTypeHOF(type) {
     switch (type) {
         case 'int':
         return Number.isInteger;
@@ -111,6 +80,40 @@ function checkTypeHOF(type) {
         return null;
     }
   }
+  
+  return {
+    loadPage: function() {
+      stReportSdk.report({
+        eventName: 'load_page',
+        eventDescription: '页面加载(默认上报，页面全部加载完才上报)',
+        eventDataValue: {
+          td_pl: StReportSdk.getDiffRouteTime()
+        },
+        types: {
+          td_pl: checkTypeHOF('int')
+        }
+      });
+    },
+    pageLeave: function() {
+      stReportSdk.report({
+        eventName: 'page_leave',
+        eventDescription: '离开页面(默认上报)',
+        eventDataValue: {
+          td_pl: StReportSdk.getDiffRouteTime()
+        },
+        types: {
+          td_pl: checkTypeHOF('int')
+        }
+      });
+    },
+    loadPageStart: function() {
+      stReportSdk.report({
+        eventName: 'load_page_start',
+        eventDescription: '页面加载(默认上报，进入页面就上报)'
+      });
+    }
+
+  }
 }
 ```
 
@@ -118,6 +121,9 @@ function checkTypeHOF(type) {
 
 最后，在业务中，调用刚刚创建的 tracker 对象中的各种上报方法实现数据上报即可
 ```javascript
+   tracker.loadPage();
+
+    //点击上报
     $(".btn").on('click',function(){
         tracker.clickxxxx(arg1, arg2, ...argn)
         //业务代码
