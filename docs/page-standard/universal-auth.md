@@ -3,12 +3,14 @@
 
 ## 使用方法
 配置 `window.__XFE_UNIVERSAL_AUTH_CONFIG__` 后，在头部head标签内引入 `universal-auth.js` 脚本
-请将{VERSION}更换为具体的版本，目前最新的版本是1.0.0，[详细版本日志](#ChangeLog)
+
+请确定具体的版本，目前最新的版本是1.0.2，[详细版本日志](#ChangeLog)
 ```html
 <head>
  ...
    <script>
       window.__XFE_UNIVERSAL_AUTH_CONFIG__ = {
+	 env: "master", /*具体业务场景可以根据页面地址判断正式测试环境 例如：window.location.host === "xxx.xoyo.com" ? "master" : "test" */
          daily: true, /*是否开启推栏授权， 默认为true*/
          limitOnlyHasJx3RoleAccessInDaily: false, /*在接入脚本前设置该值，是否限制仅拥有剑三角色账户才可进入，否则跳转无激活角色错误提示页面，默认关闭，开启会影响性能，请经确认需要开启后开启, 默认为false*/
          weixinQQ: true, /*是否开启微信QQ授权, 默认为true*/
@@ -16,7 +18,7 @@
          debug: false /*是否开启debug模式，开启会alert授权信息, 默认为false*/
       }
    </script>
-   <script src="//zhcdn01.xoyo.com/xassets/lib/universal-auth/{VERSION}/universal-auth.js" crossOrigin="anonymous" ></script>
+   <script src="//zhcdn01.xoyo.com/xassets/lib/universal-auth/1.0.2/universal-auth.js" crossOrigin="anonymous" ></script>
  ...
 </head>
 ```
@@ -137,6 +139,9 @@ QQ成功
 ![daily auth return](/xfe-document/images/auth-success-return.png)
 
 ## ChangeLog
+
+### 1.0.2
+* feat: 增加 env 参数，`master` 为正式环境，`test` 为测试环境
 
 ### 1.0.0
 * 首次提交
