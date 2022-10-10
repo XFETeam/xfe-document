@@ -1,6 +1,8 @@
 # 剑网3通用授权
     包含逍遥授权，微信QQ授权和剑网3推栏授权
 
+更多请到[github文档](https://github.com/XFETeam/libs/tree/universal-auth-sdk)查看
+
 ## 使用方法
 配置 `window.__XFE_UNIVERSAL_AUTH_CONFIG__` 后，在头部head标签内引入 `universal-auth.js` 脚本
 
