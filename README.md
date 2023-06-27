@@ -2,7 +2,7 @@
 
 > XFE 日常项目专题开发模板文档。
 
-## Demo
+## 文档地址
 
 [https://xfeteam.github.io/xfe-document/](https://xfeteam.github.io/xfe-document/)
 
