@@ -80,7 +80,7 @@ title: 代码管理和发布
 
 但是实际资源调用的路劲为: https://test-zt.xoyo.games/xxxx.com/p/xxxx/xx/xx/xxxxxxx/static/xxxxxx.js 确保资源调用的路径是否正确. 
 
-> 注意: vue 等默认模板 host 都是 / , 但这样会访问根路径, 请自行改为相对路径
+> 注意: vue 等默认模板 host 都是 / , 但这样会访问根路径, 请自行改为相对路径!
 
 ## Gitlab 仓库发布部署流程
 [gitlab仓库发布部署流程](https://d7n9vj8ces.feishu.cn/docx/doxcnohILWEa5AgyvgiwuJbK0qf)
