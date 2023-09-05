@@ -38,6 +38,7 @@ module.exports = {
           "/page-standard/daily-auth",
           "/page-standard/universal-auth",
           "/page-standard/xpass",
+          "/page-standard/common-login.md",
           "/page-standard/js-reg-login",
         ],
       },
